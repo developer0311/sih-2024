@@ -27,7 +27,7 @@ h1{
     background-size: 52% 100%;
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-stroke: 0.1px rgb(0 55 133);
+    -webkit-text-stroke: 0.5px rgb(0 55 133);
 }
 
 h3{
