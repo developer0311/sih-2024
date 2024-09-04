@@ -104,7 +104,8 @@ footer p{
 @media only screen and (max-width: 635px){
     h1{
         font-size: 12vw;
-        background-size: 60vw 8vw;
+        background-size: 60vw 9vw;
+        -webkit-text-stroke: 1.5px rgb(0 55 133);
     }
     
     h3{
