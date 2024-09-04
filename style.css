@@ -9,7 +9,6 @@
 }
 
 body{
-    /* text-align: center; */
     overflow-x: hidden;
 }
 
@@ -20,14 +19,17 @@ body{
 h1{
     text-align: center;
     font-size: 80px;
+    letter-spacing: 2px;
     font-family: "New Amsterdam", sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
     color: transparent;
     background: url('flag.png') no-repeat;
     background-position: 50% 50%;
-    background-size: 52% 100%;
+    background-size: 355px 80px;
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-stroke: 2px rgb(0 55 133);
+    -webkit-text-stroke: 1px rgb(0 55 133);
 }
 
 h3{
@@ -98,9 +100,11 @@ footer p{
     }
 }
 
+
 @media only screen and (max-width: 635px){
     h1{
-        font-size: 10vw;
+        font-size: 12vw;
+        background-size: 60vw 8vw;
     }
     
     h3{
@@ -113,6 +117,5 @@ footer p{
     
     img{
         width: 90%;
-
     }
 }
