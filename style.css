@@ -27,7 +27,7 @@ h1{
     background-size: 52% 100%;
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-stroke: 1px rgb(0 55 133);
+    -webkit-text-stroke: 0.01px rgb(0 55 133);
 }
 
 h3{
@@ -64,7 +64,21 @@ p{
     height: 100%;
     object-fit: contain;
     margin-bottom: 20px;
-    border: 2px solid black;
+}
+
+footer{
+    width: 100vw;
+    position: fixed;
+    bottom: 0px; 
+    background-color: rgb(4, 107, 75);
+    color: #fff;
+}
+
+footer p{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
